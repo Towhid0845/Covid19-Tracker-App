@@ -1,0 +1,65 @@
+body,
+p,
+h1,
+h2,
+ul,
+li,
+a {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	width: 80%;
+	margin: 50px auto;
+	padding: 10px 0 30px;
+	text-align: center;
+	background-color: #f0f8ff;
+}
+.main h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	text-shadow: 5px 0px 3px #ffff00, 7px 0px 3px #480cfe;
+}
+.main ul {
+	padding-top: 30px;
+}
+.card {
+	height: 100px;
+	width: 25%;
+	list-style: none;
+	background-color: #9fb9d0;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+}
+.main ul li:last-child,
+.main ul li:nth-child(3) {
+	margin-right: 0px;
+}
+.main ul li:nth-child(4),
+.main ul li:nth-child(5),
+.main ul li:nth-child(6) {
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+.card {
+	transition: 0.5s;
+}
+.card:hover {
+	transform: scale(1.1);
+}
+.card_name span {
+	font-size: 10px;
+}
+.card_name {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.card_num {
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 3px 0px 3px #ffff00, 6px 0px 3px #480cfe;
+	padding-top: 15px;
+}
